@@ -1,0 +1,91 @@
+/* General styles for the form container */
+.login div {
+    
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    width: 500px;
+}
+
+/* Form heading */
+.login h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Label styles */
+.login label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Input field styles */
+.login input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.login input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button styles */
+.login button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login button:hover {
+    background-color: #0056b3;
+}
+
+/* Success and error message styles */
+.login p {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.login p[style*="color: green"] {
+    color: green;
+}
+
+.login p[style*="color: red"] {
+    color: red;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 480px) {
+    .login div {
+        padding: 15px;
+    }
+
+    .login h2 {
+        font-size: 1.5rem;
+    }
+
+    .login input,
+    .login button {
+        font-size: 0.9rem;
+    }
+}

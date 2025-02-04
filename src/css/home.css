@@ -1,0 +1,26 @@
+.button {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Space between image and button */
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .img {
+    display: block;
+    margin: 0 auto; /* Center image horizontally */
+  }
+  
+  .content {
+    text-align: center; /* Center content inside the cell */
+  }
+  
