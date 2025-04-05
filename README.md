@@ -1,5 +1,23 @@
 # quizapp
-This project features a user authentication system with both sign-in and login forms. Users can participate in quizzes, submit their responses, and instantly view their scores upon completion. Their past scores are stored locally using local storage, allowing them to track their performance over time. Additionally, the platform includes a built-in code compiler, enabling users to write and test code directly within the application.
+
+
+Project Overview:
+
+This web application provides an interactive platform with the following key features:
+
+User Authentication: Includes both sign-in and login functionality.
+
+Quiz System: Users can take quizzes and receive instant feedback upon submission.
+
+Performance Tracking: Scores are saved using local storage, allowing users to review their previous attempts.
+
+Code Compiler: A built-in code editor enables users to write and run code directly within the app.
+
+
+This project combines learning, practice, and user engagement into one seamless experience.
+
+
+
 
 
 
